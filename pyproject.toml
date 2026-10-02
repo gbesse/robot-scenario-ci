@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-scenario-ci"
+version = "0.1.0"
+description = "A local, inspectable robotics integration check."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "gbesse"}]
+dependencies = []
+
+[project.scripts]
+robot-scenario-ci = "robot_scenario_ci:main"
+
+[tool.setuptools]
+py-modules = ['robot_scenario_ci']

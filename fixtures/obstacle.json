@@ -1,0 +1,11 @@
+{
+  "name": "obstacle-and-replan",
+  "command": ["python3", "fake_robot.py", "{telemetry}"],
+  "timeout_s": 5,
+  "expect": {
+    "events": ["goal_sent", "route_replanned", "goal_reached"],
+    "max_duration_ms": 1500,
+    "stop_after_obstacle": true,
+    "max_stop_latency_ms": 50
+  }
+}

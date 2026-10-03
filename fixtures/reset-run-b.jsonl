@@ -1,0 +1,6 @@
+{"event":"begin","episode":"1","at_ms":0}
+{"event":"reset","episode":"1","at_ms":1,"state_id":"state-A","seed":101,"environment_revision":"world-v1","simulator_version":"sim-1"}
+{"event":"end","episode":"1","at_ms":800,"outcome":"failure"}
+{"event":"begin","episode":"2","at_ms":1000}
+{"event":"reset","episode":"2","at_ms":1001,"state_id":"state-B","seed":102,"environment_revision":"world-v1","simulator_version":"sim-1"}
+{"event":"end","episode":"2","at_ms":1700,"outcome":"success"}

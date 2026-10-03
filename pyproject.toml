@@ -14,6 +14,7 @@ dependencies = []
 
 [project.scripts]
 robot-scenario-ci = "robot_scenario_ci:main"
+robot-reset-ledger = "reset_ledger:main"
 
 [tool.setuptools]
-py-modules = ['robot_scenario_ci']
+py-modules = ['robot_scenario_ci', 'reset_ledger']
